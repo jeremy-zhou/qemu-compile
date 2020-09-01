@@ -1,5 +1,6 @@
 #!/bin/bash
 
+yum install gcc gcc-c++ openssl-devel bzip2-devel libffi-devel -y
 yum install glib2-devel libfdt-devel pixman-devel zlib-devel -y
 yum install libaio-devel libcap-devel libiscsi-devel python-sphinx -y
 yum install libssh2-devel libxml2-devel libcap-ng-devel usbredir-devel -y
