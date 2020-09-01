@@ -7,7 +7,7 @@ yum install libusb-devel  uuid-devel libjpeg-devel libcurl-devel texinfo -y
 yum install gnutls-devel libcacard-devel libseccomp-devel -y
 yum install systemtap-sdt-devel gtk3-devel cyrus-sasl-devel -y
 yum install spice-server spice-server-devel spice-protocol -y
-yum install lzo-devel snappy-devel gperftools-devel -y
+yum install lzo-devel snappy-devel gperftools-devel bzip2 -y
 pip install sphinx
 
 yum install -y wget
