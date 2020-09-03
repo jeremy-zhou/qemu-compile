@@ -17,4 +17,5 @@ tar -xvf qemu-5.1.0.tar.xz
 cd qemu-5.1.0
 mkdir bin && cd bin
 ../configure --target-list=x86_64-softmmu --enable-gnutls --enable-docs --enable-lzo --enable-snappy --enable-gtk --enable-vnc --enable-vnc-sasl --enable-vnc-png --enable-vnc-jpeg --enable-curl --enable-kvm  --enable-linux-aio --enable-cap-ng --enable-vhost-net --enable-vhost-crypto --enable-spice --enable-usb-redir --enable-bzip2 --enable-coroutine-pool --enable-libxml2 --enable-replication --enable-tools --enable-capstone
-make -j$nproc
+make 
+make install
